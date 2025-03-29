@@ -1,0 +1,309 @@
+/* ---- ---- Navbar ---- ---- */
+.container, .container-news {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar  {
+    display: flex;
+    justify-content: space-between;
+    background: #f1f1f1;
+    padding: 10px 50px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.navbar a {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    color: #184E77;
+}
+
+.navbar a:hover {
+    color: #1E6091;
+}
+
+/* ---- ---- INDEX ---- ---- */
+header .img-presentation {
+    display: flex;
+    justify-content: center;
+}
+
+header .img-presentation img {
+    margin-top: 20px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+header .btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header .btn button {
+    background-color: #1E6091;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin: 0px 10px;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+header .btn button:hover {
+    background-color: #184E77;
+}
+
+header .testimonials {
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+header .testimonials .testimonial {
+    text-align: center;
+    padding: 20px;
+    margin: 0px 10px;
+    max-width: 400px;
+    border: 1px, solid, #184e77;
+    border-radius: 5px;
+}
+
+header .testimonials .testimonial h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* ---- ---- ABOUT ---- ---- */
+.about div {
+    text-align: center;
+    margin: 20px 300px;
+}
+
+.about h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.team {
+    text-align: center;
+    margin: 20px 300px;
+}
+
+.team div {
+    margin: 20px;
+}
+
+.team h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* ---- ---- NEWS ---- ---- */
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-news h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.news .new {
+    margin: 10px;
+    max-width: 500px;
+    min-width: 500px;
+    padding: 20px;
+    border: 1.5px, solid, #184E77;
+    border-radius: 5px;
+}
+
+.news .new p {
+    font-weight: 300;
+}
+
+.news .new h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.news .new button {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background: #1E6091;
+    color: #ffffff;
+}
+
+.news .new button:hover {
+    background: #184E77;
+}
+
+/* ---- ---- GALLERY ---- ----  */
+.gallery{
+    overflow: hidden;
+}
+
+.gallery .picture {
+    width: 25%;
+    float: left;
+}
+.gallery .picture img {
+    width: 100%;
+    vertical-align: top;
+    opacity: .7;
+}
+
+.gallery .picture img:hover {
+    opacity: 1;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+}
+
+/* ---- ---- FORM-CONTACT ---- ---- */
+.form {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Slabo 27px', serif;
+}
+
+.form .contenedor-inputs {
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* ----- Inputs de Texto ----- */
+.form {
+    border: 1px, solid, #184E77;
+    max-width: 500px;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form input[type="number"]:focus {
+    border-bottom: 2px solid #246eb9;
+    outline: none;
+}
+
+/* ----- Radio Buttons ----- */
+.form input[type="radio"] {
+    display: none;
+}
+
+.form .sexo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form .label-radio {
+    background: rgba(249, 160, 63, 0.4);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 49%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form input[type="radio"]:checked + .label-radio {
+    background: rgb(249, 160, 68);
+}
+
+/* ----- Términos y Condiciones ----- */
+.form .terms {
+    text-align: center;
+    color: #424242;
+    margin-bottom: 15px;
+}
+
+.form .terms label {
+    margin-left: 10px;
+}
+
+/* ----- Botón ----- */
+.form .btn {
+    width: 100%;
+    background: #246eb9;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form .btn:hover {
+    background: #4357ad;
+}
+
+/* ----- Errores ----- */
+.form .error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* ---- ---- FOUNDER ---- ---- */
+.founder-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+.founder-section img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.founder-info {
+    flex: 1;
+    text-align: left;
+}
+
+.founder-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.founder-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
